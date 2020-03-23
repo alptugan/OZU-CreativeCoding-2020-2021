@@ -26,6 +26,7 @@ void setup() {
   
   
   // Set the movement amount across the canvas
+  // (todo: change the following value to see the difference)
   randomWalkStepSize = 5;
 }
 
@@ -42,6 +43,6 @@ void draw() {
   x = x + random(-randomWalkStepSize,randomWalkStepSize);
   y = y + random(-randomWalkStepSize,randomWalkStepSize);
   
-  //point(x, y);
+  // (todo: change the shape such as triangle, rectangle, circle, ellipse, etc...)
   line(pX, pY, x, y);
 }
